@@ -1,0 +1,14 @@
+
+Map: proposal_campus (7 locations, 11 connections)
+Profile: no_stairs - Wheelchair / mobility aid: stairs unavailable, must use ramps or elevators.
+Heuristic: euclidean
+
+== Quick Preview (Greedy Best-First) ==
+[Greedy] Main Entrance -> Gym
+  1. Main Entrance -> Business via elevator  150 m  (cost 150, running 150)
+  2. Business -> Engineering via elevator  70 m  (cost 70, running 220)
+  3. Engineering -> Gym via ramp  100 m  (cost 100, running 320)
+  Total cost: 320.0  |  nodes expanded: 3  |  time: 0.044 ms
+
+
+Saved visualization to results/proposal_greedy.png
